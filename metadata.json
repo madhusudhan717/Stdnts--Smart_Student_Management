@@ -1,0 +1,6 @@
+{
+  "name": "STDNTS — Smart Student Management System",
+  "description": "A modern student portal to track exams, schedules, assignments, attendance, grades, study materials, and focus sessions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
