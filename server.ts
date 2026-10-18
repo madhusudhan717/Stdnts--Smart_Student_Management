@@ -1,3 +1,4 @@
+import cors from 'cors';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -28,7 +29,16 @@ async function startServer() {
 
   // Initialize SQLite database & seed demo data
   await getDb();
+app.use(cors({
+  origin: [
+    'https://stdnts-smart-student-management.vercel.app',
+    'https://stdnts-smart-student-management-khxgss75t.vercel.app'
+  ],
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
+app.use(express.json());
   app.use(express.json());
 
   // Mount API routers
