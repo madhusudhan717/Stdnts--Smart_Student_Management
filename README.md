@@ -140,3 +140,13 @@ The database is pre-seeded with a comprehensive demo student record and realisti
 - [x] **Focus Session**: Start the Pomodoro timer, test break mode, complete a cycle, and verify session logs to SQLite with confetti.
 - [x] **Attendance**: Click "Present (+1)" on a course; observe dynamic percentage and overall compliance updating immediately.
 - [x] **Persistence**: Restart the server; all added exams, notes, attendance numbers, and profile changes remain safely in `server/database/student_management.db`.
+
+## 6. Output Images
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dccd0bb1-9a84-4c47-aa30-77a09cda8b8f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41881177-df85-481c-8375-6b16dfe08744" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/77b0f36e-ca24-4650-9fba-322c84912b89" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d983866-5033-472a-b6da-646c7766c778" />
+
+
+
